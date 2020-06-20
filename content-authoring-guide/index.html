@@ -295,6 +295,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#overriding-the-mkdocs-defaults" class="md-nav__link">
+    Overriding the mkdocs Defaults
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#material-examples" class="md-nav__link">
     Material examples
   </a>
@@ -377,6 +384,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#overriding-the-mkdocs-defaults" class="md-nav__link">
+    Overriding the mkdocs Defaults
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#material-examples" class="md-nav__link">
     Material examples
   </a>
@@ -421,16 +435,30 @@ all know they are on a kid-safe site.</p>
 <p>All images should be stored in the doc/img directory in your site.  Please keep images reasonably small (under 50K) to keep the load times fast.</p>
 <h2 id="navigation">Navigation<a class="headerlink" href="#navigation" title="Permanent link">&para;</a></h2>
 <p>Make sure when you add a new content file you link it into the navigation menu.  Try to keep navigation lists under 30 items.  Try using nesting if your lists get too long.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="err">Thanks! - The CoderDojo Twin Cities Mentoring Coordination Team</span>
-</code></pre></div>
-</td></tr></table>
-
 <h2 id="mkdocs-commands">Mkdocs commands<a class="headerlink" href="#mkdocs-commands" title="Permanent link">&para;</a></h2>
 <p>There are only four mkdocs commands:
    build      Build the MkDocs documentation.  We use this to test at the nav pages all match a document.
    gh-deploy  Deploy your documentation to GitHub Pages.  Run this when you want to take your local changes and push them to the web site.
    new        Create a new MkDocs project.  Most of our mentors will not need to do this.  We will supply you with a template zip file with all the right content if you need to create a new CoderDojo microsite of your own.
    serve      Run the builtin development server and display the web site on your local computer.  This is a great way to quickly check your changes since the server watches for any file changes and immediately updates the web page.</p>
+<p>Here is an example of the mkdocs gh-deploy running in a Terminal:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ mkdocs gh-deploy
+INFO    -  Cleaning site directory 
+INFO    -  Building documentation to directory: /Users/dan/Documents/ws/CoderDojoTC/site 
+INFO    -  Documentation built in <span class="m">0</span>.48 seconds
+INFO    -  Copying <span class="s1">&#39;/Users/dan/Documents/ws/CoderDojoTC/site&#39;</span> to <span class="s1">&#39;gh-pages&#39;</span> branch and pushing to GitHub. 
+INFO    -  Your documentation should shortly be available at: https://CoderDojoTC.github.io/CoderDojoTC/
+</code></pre></div>
+</td></tr></table>
+
+<p>Note that the web site for around 20 MarkDown pages is built in about a half second.  Pushing the changed content up to the GitHub Pages should only take a few seconds.</p>
+<h2 id="overriding-the-mkdocs-defaults">Overriding the mkdocs Defaults<a class="headerlink" href="#overriding-the-mkdocs-defaults" title="Permanent link">&para;</a></h2>
+<p>We use most of the standard mkdocs default settings for our microsites.  We do change the theme to the material theme and we change the color, favicon and logo of the site.  These are all done by settings in the mkdocs.yml file.</p>
 <h2 id="material-examples">Material examples<a class="headerlink" href="#material-examples" title="Permanent link">&para;</a></h2>
 <p>We chose the Google Material theme because there are tens of thousands of components you can add to your pages.  You can get a sample of them here:</p>
 <p><a href="https://material.io/components">Material Components</a></p>
