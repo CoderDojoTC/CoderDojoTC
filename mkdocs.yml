@@ -1,0 +1,26 @@
+site_name: 'STEM Mentors'
+nav:
+  - Home: index.md
+  - Content Stewards: content-stewards.md
+  - Getting Started: getting-started.md
+  - Contacts: contact/contact.md
+
+repo_name: 'stem-mentors'
+repo_url: 'https://github.optum.com/OptumTechUniversity/stem-mentors'
+edit_uri: 'blob/master/docs'
+copyright: 'Copyright &copy; 2020 Optum'
+theme:
+  name: material
+  palette:
+    primary: 'amber'
+    accent: 'amber'
+  feature:
+    tabs: true
+  custom_dir: 'theme'
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - codehilite:
+      linenums: true
