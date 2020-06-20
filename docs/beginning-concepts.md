@@ -15,7 +15,7 @@ There are four key techniques (cornerstones) to computational thinking.  We have
 
 Although we have many different coding groups that are appropriate for beginners, there are several computer science concepts that we encourage everyone to adopt in your coding group curriculum.
 
-**Events** - Shat events start a program?  What events change the behavior of a program?
+**Events** - What events start a program?  What events change the behavior of a program?
 
 **Loops** - How do repeat a set of tasks?
 
