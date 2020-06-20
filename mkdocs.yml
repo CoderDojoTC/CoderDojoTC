@@ -1,19 +1,25 @@
-site_name: 'STEM Mentors'
+site_name: 'CoderDojo Mentor Resources'
 nav:
-  - Home: index.md
-  - Content Stewards: content-stewards.md
-  - Getting Started: getting-started.md
-  - Contacts: contact/contact.md
+  - Introduction: index.md
+  - Code Groups: code-groups.md 
+  - Code of Conduct: code-of-conduct.md
+  - Mentoring Best Practices: mentoring-best-practices.md
+  - Beginning Concepts: beginning-concepts.md
+  - Content Authoring Guide: content-authoring-guide.md
+  - Designing Concept Cards: designing-concept-cards.md
+  - Contacts: contacts.md
 
-repo_name: 'stem-mentors'
-repo_url: 'https://github.optum.com/OptumTechUniversity/stem-mentors'
+repo_name: 'CoderDojoTC'
+repo_url: 'https://github.com/CoderDojoTC/CoderDojoTC'
 edit_uri: 'blob/master/docs'
-copyright: 'Copyright &copy; 2020 Optum'
+copyright: 'All content is licensed under Creative Commons Sharealike non-commercial with attribution'
 theme:
   name: material
   palette:
-    primary: 'amber'
-    accent: 'amber'
+    primary: '#642580'
+    accent: '#41BAC1'
+    logo: img/coderdojo-logo.svg
+    favicon: img/favicon.png
   feature:
     tabs: true
   custom_dir: 'theme'
