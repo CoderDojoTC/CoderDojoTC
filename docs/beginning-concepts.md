@@ -3,12 +3,12 @@ Computational thinking is one of the underlying patterns that guide the developm
 
 There are four key techniques (cornerstones) to computational thinking.  We have to added the concept of explainability and bias to these concepts
 
-1. decomposition - breaking down a complex problem or system into smaller, more manageable parts
-2. pattern recognition – looking for similarities among and within problems
-3. abstraction – focusing on the important information only, ignoring irrelevant detail
-4. algorithms - developing a step-by-step solution to the problem, or the rules to follow to solve the problem
-5. explainability - can a computer explain why it took a specific action or made a specific recommendation?
-6. bias - is the result of the suggestion made by a computer skewed in a direction that makes it unfair to a group of people?
+1. **decomposition** - breaking down a complex problem or system into smaller, more manageable parts
+2. **pattern recognition** – looking for similarities among and within problems
+3. **abstraction** – focusing on the important information only, ignoring irrelevant detail
+4. **algorithms** - developing a step-by-step solution to the problem, or the rules to follow to solve the problem
+5. **explainability** - can a computer explain why it took a specific action or made a specific recommendation?
+6. **bias** - is the result of the suggestion made by a computer skewed in a direction that makes it unfair to a group of people?
 
 
 ## Beginning Concepts

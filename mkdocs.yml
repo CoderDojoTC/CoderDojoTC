@@ -7,7 +7,7 @@ nav:
   - Beginning Concepts: beginning-concepts.md
   - Content Authoring Guide: content-authoring-guide.md
   - Designing Concept Cards: designing-concept-cards.md
-  - Contacts: contacts.md
+  - Contact Us: contact.md
 
 repo_name: 'CoderDojoTC'
 repo_url: 'https://github.com/CoderDojoTC/CoderDojoTC'
@@ -18,7 +18,7 @@ theme:
   palette:
     primary: '#642580'
     accent: '#41BAC1'
-    logo: img/coderdojo-logo.svg
+    logo: img/coderdojo-logo.png
     favicon: img/favicon.png
   feature:
     tabs: true
