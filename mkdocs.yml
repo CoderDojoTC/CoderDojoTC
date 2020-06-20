@@ -15,11 +15,12 @@ edit_uri: 'blob/master/docs'
 copyright: 'All content is licensed under Creative Commons Sharealike non-commercial with attribution'
 theme:
   name: material
+  logo: img/coderdojo-logo.jpg
+  favicon: img/favicon.png
   palette:
     primary: '#642580'
     accent: '#41BAC1'
-    logo: img/coderdojo-logo.png
-    favicon: img/favicon.png
+
   feature:
     tabs: true
   custom_dir: 'theme'
