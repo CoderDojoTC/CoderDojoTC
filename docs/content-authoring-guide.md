@@ -27,11 +27,19 @@ Make sure when you add a new content file you link it into the navigation menu. 
     Thanks! - The CoderDojo Twin Cities Mentoring Coordination Team
 
 ## Mkdocs commands
-There are only four mkdocs commands:
-   build      Build the MkDocs documentation.  We use this to test at the nav pages all match a document.
-   gh-deploy  Deploy your documentation to GitHub Pages.  Run this when you want to take your local changes and push them to the web site.
-   new        Create a new MkDocs project.  Most of our mentors will not need to do this.  We will supply you with a template zip file with all the right content if you need to create a new CoderDojo microsite of your own.
-   serve      Run the builtin development server and display the web site on your local computer.  This is a great way to quickly check your changes since the server watches for any file changes and immediately updates the web page.
+There are only four mkdocs commands.  You will rarely need to use the new command.
+
+
+### mkdocs build
+Build the MkDocs documentation.  We use this to test at the nav pages all match a document.
+
+### mkdocs gh-deploy
+Deploy your documentation to GitHub Pages.  Run this when you want to take your local changes and push them to the web site.
+### mkdocs new
+Create a new MkDocs project.  Most of our mentors will not need to do this.  We will supply you with a template zip file with all the right content if you need to create a new CoderDojo microsite of your own.
+
+### mkdocs serve
+Run the builtin development server and display the web site on your local computer.  This is a great way to quickly check your changes since the server watches for any file changes and immediately updates the web page.
 
 ## Material examples
 
