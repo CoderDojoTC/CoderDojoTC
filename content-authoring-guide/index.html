@@ -305,7 +305,7 @@
         
           <li class="md-nav__item">
   <a href="#mkdocs-gh-deploy" class="md-nav__link">
-    mkdocs gh-deploy
+    *mkdocs gh-deploy
   </a>
   
 </li>
@@ -421,7 +421,7 @@
         
           <li class="md-nav__item">
   <a href="#mkdocs-gh-deploy" class="md-nav__link">
-    mkdocs gh-deploy
+    *mkdocs gh-deploy
   </a>
   
 </li>
@@ -496,13 +496,23 @@ all know they are on a kid-safe site.</p>
 
 <h2 id="mkdocs-commands">Mkdocs commands<a class="headerlink" href="#mkdocs-commands" title="Permanent link">&para;</a></h2>
 <p>There are only four mkdocs commands.  You will rarely need to use the new command.</p>
-<h3 id="mkdocs-build">mkdocs build<a class="headerlink" href="#mkdocs-build" title="Permanent link">&para;</a></h3>
-<p>Build the MkDocs documentation.  We use this to test at the nav pages all match a document.</p>
-<h3 id="mkdocs-gh-deploy">mkdocs gh-deploy<a class="headerlink" href="#mkdocs-gh-deploy" title="Permanent link">&para;</a></h3>
+<h4 id="mkdocs-build"><strong>mkdocs build</strong><a class="headerlink" href="#mkdocs-build" title="Permanent link">&para;</a></h4>
+<p>Build the MkDocs documentation.  We use this to test at the nav pages all match a document.
+If you get error messages in the build process you work on fixing them until the build
+does not return any errors.</p>
+<h4 id="mkdocs-gh-deploy">*<em>mkdocs gh-deploy</em><a class="headerlink" href="#mkdocs-gh-deploy" title="Permanent link">&para;</a></h4>
 <p>Deploy your documentation to GitHub Pages.  Run this when you want to take your local changes and push them to the web site.</p>
-<h3 id="mkdocs-new">mkdocs new<a class="headerlink" href="#mkdocs-new" title="Permanent link">&para;</a></h3>
+<p>Here is an example of this run
+<code>sh
+$ mkdocs gh-deploy
+INFO    -  Cleaning site directory 
+INFO    -  Building documentation to directory: /Users/dmccrea1/Documents/ws/CoderDojoTC/site 
+INFO    -  Documentation built in 0.90 seconds 
+INFO    -  Copying '/Users/dmccrea1/Documents/ws/CoderDojoTC/site' to 'gh-pages' branch and pushing to GitHub. 
+INFO    -  Your documentation should shortly be available at: https://CoderDojoTC.github.io/CoderDojoTC/</code></p>
+<h4 id="mkdocs-new"><strong>mkdocs new</strong><a class="headerlink" href="#mkdocs-new" title="Permanent link">&para;</a></h4>
 <p>Create a new MkDocs project.  Most of our mentors will not need to do this.  We will supply you with a template zip file with all the right content if you need to create a new CoderDojo microsite of your own.</p>
-<h3 id="mkdocs-serve">mkdocs serve<a class="headerlink" href="#mkdocs-serve" title="Permanent link">&para;</a></h3>
+<h4 id="mkdocs-serve"><strong>mkdocs serve</strong><a class="headerlink" href="#mkdocs-serve" title="Permanent link">&para;</a></h4>
 <p>Run the builtin development server and display the web site on your local computer.  This is a great way to quickly check your changes since the server watches for any file changes and immediately updates the web page.</p>
 <h2 id="material-examples">Material examples<a class="headerlink" href="#material-examples" title="Permanent link">&para;</a></h2>
 <p>We chose the Google Material theme because there are tens of thousands of components you can add to your pages.  You can get a sample of them here:</p>
