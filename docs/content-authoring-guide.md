@@ -32,10 +32,11 @@ Build the MkDocs documentation.  We use this to test at the nav pages all match 
 If you get error messages in the build process you work on fixing them until the build
 does not return any errors.
 
-#### **mkdocs gh-deploy*
+#### **mkdocs gh-deploy**
 Deploy your documentation to GitHub Pages.  Run this when you want to take your local changes and push them to the web site.
 
-Here is an example of this run
+Here is an example of this run:
+
 ```sh
 $ mkdocs gh-deploy
 INFO    -  Cleaning site directory 
