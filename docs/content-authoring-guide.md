@@ -24,8 +24,6 @@ All images should be stored in the doc/img directory in your site.  Please keep 
 ## Navigation
 Make sure when you add a new content file you link it into the navigation menu.  Try to keep navigation lists under 30 items.  Try using nesting if your lists get too long.
 
-    Thanks! - The CoderDojo Twin Cities Mentoring Coordination Team
-
 ## Mkdocs commands
 There are only four mkdocs commands.  You will rarely need to use the new command.
 
