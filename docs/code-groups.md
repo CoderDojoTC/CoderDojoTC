@@ -30,6 +30,22 @@ data literacy using Jupyter Notebooks.
 ## App Inventor
 [App Inventor](https://github.com/CoderDojoTC/app-inventor)
 Learn how to build your own mobile apps (Android only) with AppInventor, a powerful, visual programming tool from MIT.
+<br/>[Technovation Coding Lab 1: Choose your App Builder](https://technovationchallenge.org/curriculum/coding-1/)
+<br/>[Technovation Coding Lab 2: Algorithms and Pseudocode](https://technovationchallenge.org/curriculum/coding-2/)
+<br/>[Technovation Coding Lab 3: Event Handlers](https://technovationchallenge.org/curriculum/coding-3/)
+<br/>[Technovation Coding Lab 4: Data and Functions](https://technovationchallenge.org/curriculum/coding-4/)
+<br/>[Technovation Coding Lab 5: Variables](https://technovationchallenge.org/curriculum/coding-5/)
+<br/>[Technovation Coding Lab 6: Lists](https://technovationchallenge.org/curriculum/coding-6/)
+<br/>[Technovation Coding Lab 7: If/Else Conditional Statements](https://technovationchallenge.org/curriculum/coding-7/)
+<br/>[Technovation Coding Lab 8: If / Else / Else If Conditionals](https://technovationchallenge.org/curriculum/coding-8/)
+<br/>[Technovation Coding Lab 9: Advanced Logic and Conditionals](https://technovationchallenge.org/curriculum/coding-9/)
+<br/>[Technovation Coding Lab 10: Loops](https://technovationchallenge.org/curriculum/coding-10/)
+<br/>[Technovation Coding Lab 11: Using Sensors and Components in App Inventor and Thunkable](https://technovationchallenge.org/curriculum/coding-11-sensors-and-components/)
+<br/>[Technovation Coding Lab 12: Storing Data Locally](https://technovationchallenge.org/curriculum/coding-12-storing-data-locally/)
+<br/>[Technovation Coding Lab 13: Storing Data in the Cloud and APIs](https://technovationchallenge.org/curriculum/coding-10/)
+<br/>[Technovation Coding Lab 14: Debugging Tips in App Inventor and Thunkable](https://technovationchallenge.org/curriculum/coding-14/)
+<br/>[Technovation Coding Lab 15: Flowcharts](https://technovationchallenge.org/curriculum/coding-14/)
+<br/>[Technovation Coding Lab 14: Debugging Tips in App Inventor and Thunkable](https://technovationchallenge.org/curriculum/coding-14/)
 <br/>**Ages:** 12-18
 
 ## Arduino ##
