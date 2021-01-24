@@ -1,3 +1,5 @@
+# CoderDojo Content Authoring Guide
+When our CoderDojo clubs were just getting started we struggled to find high-quality content that was age appropriate for our students.  We learned of the CoderDojo international foundation used simple laminated [Concept Cards](../glossary.md#concept-cards)
 
 ## Our Content Publishing Stack
 We use [Markdown](https://en.wikipedia.org/wiki/Markdown) for all our content.  A good way to learn Markdown is to use a [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).  We want you to put many images into

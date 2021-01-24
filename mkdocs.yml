@@ -5,11 +5,12 @@ nav:
   - Code Group Content Status: code-group-status.md 
   - Code of Conduct: code-of-conduct.md
   - Mentoring Best Practices: mentoring-best-practices.md
-  - Beginning Concepts: beginning-concepts.md
+  - Computational Thinking: computational-thinking.md
   - Content Authoring Guide: content-authoring-guide.md
   - Journey Maps: journey-maps.md
   - Designing Concept Cards: designing-concept-cards.md
   - Resources: resources.md
+  - Glossary: glossary.md
   - Contact Us: contact.md
 
 repo_name: 'CoderDojoTC'
