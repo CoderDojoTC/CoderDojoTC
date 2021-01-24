@@ -28,6 +28,11 @@ data literacy using Jupyter Notebooks.
 <br/>**Ages:** 10-18
 
 ## App Inventor
+!!! note
+    We are migrating our mobile application development to [Thunkable](http://www.coderdojotc.org/thunkable/).  The primary reason for this is that Thunkable works on both iPhone and Android and our younger students like the block-programming capability offered by Thunkable.  Our virtual training also allows us to not have to install local applications on the students local system.
+
+    The App Inventor content will not be maintained in the future.  
+
 [App Inventor](https://github.com/CoderDojoTC/app-inventor)
 Learn how to build your own mobile apps (Android only) with AppInventor, a powerful, visual programming tool from MIT.
 <br/>[Technovation Coding Lab 1: Choose your App Builder](https://technovationchallenge.org/curriculum/coding-1/)
