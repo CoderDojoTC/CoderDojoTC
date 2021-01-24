@@ -1,3 +1,5 @@
+
+## Our Content Publishing Stack
 We use [Markdown](https://en.wikipedia.org/wiki/Markdown) for all our content.  A good way to learn Markdown is to use a [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).  We want you to put many images into
 your classes so make sure to use the image links!
 
@@ -13,6 +15,25 @@ We use the [mkdocs material theme](https://squidfunk.github.io/mkdocs-material/)
 
 We use [CoderDojo style guide](https://company-51033.frontify.com/d/E6KNDhunr9mR/coderdojo-style-guide-1460385526) for our colors, icons and fonts.  Please try to stay close to these guidelines so that mentors, parents, and students
 all know they are on a kid-safe site.
+
+## Setting Up a Virtual Environment with Conda
+
+```
+$ conda create --name  mkdocs python=3.6
+$ conda activate mkdocs
+$ pip install mkdocs
+$ pip install mkdocs-material
+```
+
+## Add the site dir to your .gitignore
+The mkdocs process takes Markdown files and converts them to HTML.  These files are put into a folder called ```site```.  However, to publish we push this folder to the ```gh-deploy``` branch.  To keep the site directory from being pushed to the main branch we need to add the directory to the .gitignore file:
+
+Contents of .gitignore
+```
+site
+.DS_Store
+~$*
+```
 
 Try to avoid links to resources that are not kid-safe.
 
