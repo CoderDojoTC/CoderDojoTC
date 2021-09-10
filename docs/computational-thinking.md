@@ -1,4 +1,4 @@
-## Computational Thinking
+# Computational Thinking
 Computational thinking is a name we give to describing the underlying patterns that guide the development of computer science curriculum.
 
 There are four key patterns that are frequently discussed when we talk about computational thinking.
