@@ -1,5 +1,7 @@
 # Concept Cards
 
+![](img/coderdojo-concept-cards.jpg)
+
 Dan McCreary
 Version 1.1 – last updated September, 2021
 
