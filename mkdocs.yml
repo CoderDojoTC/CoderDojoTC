@@ -2,7 +2,8 @@ site_name: 'CoderDojo Mentor Resources'
 nav:
   - Introduction: index.md
   - Code Groups: code-groups.md
-  - Code Group Content Status: code-group-status.md 
+  - Code Group Content Status: code-group-status.md
+  - License: license.md
   - Code of Conduct: code-of-conduct.md
   - Mentoring Best Practices: mentoring-best-practices.md
   - Computational Thinking: computational-thinking.md
